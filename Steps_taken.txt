@@ -1,0 +1,38 @@
+1) Define scope - decide exactly what data you want to ingest and what business questions the dashboard will answer.
+
+2) Decide on datasets
+   -- Historical Flight Dataset (Primary)
+	-- Airport Metadata Dataset (Reference)
+	-- OpenSky API (Live Data Enrichment)
+
+3) Create Github repo (flight-analytics-platform)
+
+4) Create folder structure
+
+flight-analytics-platform/
+
+├── ingestion/
+│
+├── database/
+│
+├── dbt_project/
+│
+├── dashboard/
+│
+├── docs/
+│
+├── tests/
+│
+├── docker/
+│
+├── data/
+│
+├── .gitignore
+│
+├── README.md
+│
+└── docker-compose.yml
+
+5) Create a Dockerized PostgreSQL Environment
+
+6) 
