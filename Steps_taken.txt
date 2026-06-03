@@ -35,4 +35,18 @@ flight-analytics-platform/
 
 5) Create a Dockerized PostgreSQL Environment
 
-6) 
+6) Connect to database from dbms (Dbeaver)
+
+7) Create a init.sql file in database folder
+
+8) Commit changes to local git
+
+9) Create required schemas
+
+10) Download required datasets (ourairports.com, https://www.kaggle.com/datasets/giovamata/airlinedelaycauses?resource=download)
+
+11) Profile the data
+
+12) Create the required tables
+
+13) 

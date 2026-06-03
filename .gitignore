@@ -4,7 +4,10 @@ __pycache__/
 
 venv/
 
-data/raw/
-data/temp/
+data/
+data/raw/*
+data/processed/*
 
 .DS_Store
+
+Steps_taken
