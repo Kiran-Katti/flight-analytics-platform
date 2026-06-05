@@ -1,0 +1,45 @@
+[0m11:09:54.326186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249FA0647D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249FA0672D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249FB09A690>]}
+
+
+============================== 11:09:54.344436 | e89e4a5d-c747-4191-891b-bfac57db1251 ==============================
+[0m11:09:54.344436 [info ] [MainThread]: Running with dbt=1.11.11
+[0m11:09:54.344436 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\kiran\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init flight_analytics_dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m11:09:54.390300 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\kiran\.dbt
+[0m11:09:54.399105 [debug] [MainThread]: Starter project path: C:\Users\kiran\Documents\Programming\Projects\Flight_Analytics_DE\venv\Lib\site-packages\dbt\include\starter_project
+[0m11:09:54.472553 [info ] [MainThread]: 
+Your new dbt project "flight_analytics_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:09:54.481092 [info ] [MainThread]: Setting up your profile.
+[0m11:13:31.636598 [info ] [MainThread]: Profile flight_analytics_dbt written to C:\Users\kiran\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:13:31.660041 [debug] [MainThread]: Command `dbt init` succeeded at 11:13:31.660041 after 217.43 seconds
+[0m11:13:31.660041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249F3559290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249F3279E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249F9F9F450>]}
+[0m11:13:31.672954 [debug] [MainThread]: Flushing usage events
+[0m11:13:32.711979 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:41:20.605699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191EC99B090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191EDA10090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191EC8EA450>]}
+
+
+============================== 12:41:20.621583 | f94129ec-0ea5-4789-8ffa-46066e81dc84 ==============================
+[0m12:41:20.621583 [info ] [MainThread]: Running with dbt=1.11.11
+[0m12:41:20.621583 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\kiran\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run --select stg_countries mart_country_routes', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m12:41:20.621583 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\kiran\Documents\Programming\Projects\Flight_Analytics_DE\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:41:20.621583 [debug] [MainThread]: Command `dbt run` failed at 12:41:20.621583 after 0.14 seconds
+[0m12:41:20.621583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191EBAAFF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191EC99BE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191EC998650>]}
+[0m12:41:20.621583 [debug] [MainThread]: Flushing usage events
+[0m12:41:21.709109 [debug] [MainThread]: An error was encountered while trying to flush usage events

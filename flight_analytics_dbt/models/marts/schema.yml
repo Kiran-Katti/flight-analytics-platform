@@ -1,0 +1,31 @@
+version: 2
+
+models:
+
+  - name: dim_airports
+    columns:
+      - name: iata_code
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_carriers
+    columns:
+      - name: carrier_code
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_dates
+    columns:
+      - name: flight_date
+        tests:
+          - unique
+          - not_null
+
+  - name: fact_flights
+    columns:
+      - name: flight_record_id
+        tests:
+          - unique
+          - not_null

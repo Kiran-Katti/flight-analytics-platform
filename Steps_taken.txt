@@ -49,4 +49,14 @@ flight-analytics-platform/
 
 12) Create the required tables
 
-13) 
+13) Build ingestion pipeline (use batch/chunk loading whenever necessary)
+
+14) Install dbt related dependencies
+
+15) Create a dbt project
+
+16) Create transformation files (Staging layer and analytics layer)
+ 
+17) Create dbt tests and dbt documentation
+
+18) 
