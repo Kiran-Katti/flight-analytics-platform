@@ -59,4 +59,6 @@ flight-analytics-platform/
  
 17) Create dbt tests and dbt documentation
 
-18) 
+18) Start working on dash dashboard
+
+19) 
