@@ -61,4 +61,4 @@ flight-analytics-platform/
 
 18) Start working on dash dashboard
 
-19) 
+19) Commit final changes to Github
